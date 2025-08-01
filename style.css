@@ -13127,4 +13127,178 @@ h2.style-h2 a {
   }
 }
 
-]]>
+body#layout {
+  width: 1100px;
+  position: relative;
+  background-color: #f9f9f9 !important;
+  padding: 95px 5px 0;
+  margin: 0 auto !important
+}
+
+body#layout li {
+  display: none !important
+}
+
+body#layout:before {
+  content: 'Bất Động Sản Có Đăng Tin';
+  position: absolute;
+  top: 0;
+  left: 5px;
+  right: 5px;
+  height: 95px;
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+  color: #1f2024;
+  line-height: 95px;
+  text-align: center
+}
+
+body#layout:after {
+  content: 'Design by SMF.VN' !important;
+  display: block;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1;
+  text-align: center;
+  visibility: visible !important;
+  padding: 20px 0
+}
+
+body#layout div.section {
+  display: block;
+  background-color: #f1f1f1 !important;
+  margin: 0 5px 10px !important;
+  padding: 16px 16px 18px !important;
+  border-color: #e5e5e5;
+  overflow: hidden !important
+}
+
+body#layout .no-items.section {
+  display: block
+}
+
+body#layout .section h4 {
+  font-size: 14px;
+  color: #1f2024;
+  text-transform: uppercase;
+  margin: 0
+}
+
+body#layout .section h4:after {
+  text-transform: initial;
+  color: #656565;
+  font-weight: 400
+}
+
+body#layout .add_widget a {
+  color: #3c97ef !important
+}
+
+body#layout .widget-wrap3 {
+  overflow: hidden
+}
+
+body#layout .widget-content {
+  width: auto;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  border: 1px solid #e5e5e5;
+  border-left: 0
+}
+
+body#layout .locked-widget .widget-content {
+  border-left: 1px solid #3c97ef
+}
+
+body#layout .locked-widget .widget-content:hover {
+  border-left-color: #00b140
+}
+
+body#layout .widget .widget-content a.editlink {
+  border-radius: 2px
+}
+
+body#layout .visibility .editlink {
+  background: #3c97ef url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVSgEkGolcX6-ad-SNwCELTB65SIyT_qd-MTlM4ySICyGZ4qAyxsOkO8or3OURlqfVdE5xzualB3Fu1dpuNve-NTOqqTC-uwORrInaDFGcTcSmVYmwPVVPTCF6O7nvOitndzWB1cY6mCk/s18-c/mode_edit_w600_24dp.png) no-repeat center !important
+}
+
+body#layout .visibility .editlink:hover {
+  background-color: #00b140 !important
+}
+
+body#layout .draggable-widget .widget-wrap2 {
+  background: #3c97ef url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE0IqqikkB3X6rkYvDqtW59lPXumtphoi7DUQkgw4gCjWmpT0b2-8k-waMGQYipTn6PK5wL6iSzpO_7Y2G0yH4i3VHZopd7Gno3DuS3mBUrDvb8bg2NvRLmgKjV91S1cE6TleYjIEc1Es/s22/draggable.png) no-repeat 4px 50% !important
+}
+
+body#layout .draggable-widget .widget-wrap1:hover .widget-wrap2 {
+  background-color: #00b140 !important
+}
+
+body#layout .visibility .layout-widget-state.visible {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj41XowuDINuw9GQT5QrcQtD2YpQtHlIusaIeocVrZlBhN2XsXpNeU8R5Wu2I_Vtv05zIp3QwlM2S19nOvmETjPRDOvBjaIdlJt7pZ2EeVoI3IR0py8BDh01KRlwDJLMsnRg3WGJ0iKVM8/s1600/visibility_c3_600_24dp.png) !important
+}
+
+body#layout .visibility .layout-widget-state.not-visible {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCiZITbV3tsSMeuhjh5bEFTZHl5rl91fbl-WzTexcy7B-plFyWOtvFYCpY6xaG-uFofcPwZ3TVJU8jvsqVO253IA3u6XDuNRDeZCnt3qi49FrN5wwV1X0qqDG-_DYcSFosZrqOD8YeVAc/s1600/visibility_off_c3_600_24dp.png) !important;
+  opacity: 1
+}
+
+body#layout div.layout-widget-description {
+  display: none;
+  font-size: 11px;
+  line-height: 1.2em
+}
+
+body#layout #logo {
+  float: left;
+  width: 25%
+}
+
+body#layout #logo .layout-title {
+  display: none
+}
+
+body#layout #menu {
+  float: left;
+  width: 40%;
+  margin-left: 3%;
+  margin-right: 3%
+}
+
+body#layout #hotline {
+  float: right;
+  width: 20%
+}
+
+body#layout .medium-9 {
+  float: left;
+  width: 65%
+}
+
+body#layout .medium-3 {
+  float: right;
+  width: 32%
+}
+
+body#layout #none,
+body#layout .hidden,
+body#layout form,
+body#layout #content {
+  display: none
+}
+
+body#layout #footer-widget {
+  clear: both
+}
+
+body#layout #footer-widget .widget {
+  float: left;
+  width: 32%;
+  margin-right: 2%
+}
+
+body#layout #footer-widget #HTML8 {
+  margin-right: 0
+}
